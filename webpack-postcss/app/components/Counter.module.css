@@ -1,0 +1,33 @@
+/* postcss-import */
+@import "normalize.css"; /* == @import "./node_modules/normalize.css/normalize.css"; */
+
+:root {
+  /* postcss-css-variables */
+  --primary-color:   pink;
+  --secondary-color: darkred;
+  --base-fontsize:     1rem;
+}
+
+/* postcss-size */
+.two {
+  size: 200px 100px;
+}
+.one {
+  size: 300px 100px;
+}
+
+.three {
+}
+
+.pink {
+  composes: three;
+  composes: two;
+  display: flex; /* Autoprefixer */
+  color: var(--primary-color);
+}
+
+.darkred {
+  composes: one;
+  color: var(--secondary-color);
+}
+

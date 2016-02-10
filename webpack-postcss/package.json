@@ -1,5 +1,5 @@
 {
-  "name": "webpack-css-module",
+  "name": "webpack-postcss",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "autoprefixer": "^6.3.1",
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.3.13",
@@ -20,6 +21,12 @@
     "eventsource-polyfill": "^0.9.6",
     "express": "^4.13.4",
     "file-loader": "^0.8.5",
+    "normalize.css": "^3.0.3",
+    "postcss": "^5.0.14",
+    "postcss-css-variables": "^0.5.1",
+    "postcss-import": "^8.0.2",
+    "postcss-loader": "^0.8.0",
+    "postcss-size": "^1.0.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.11",
     "webpack-dev-middleware": "^1.5.0",
